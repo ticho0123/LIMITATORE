@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="347dp"
+            android:layout_height="290dp"
+            android:src="@drawable/welcome"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+       android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="108dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Selamat datang di Limitatore"
+            android:textColor="#6767D0"
+            android:textSize="36sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        >
+
+       <TextView
+           android:layout_height="54dp"
+           android:layout_width="355dp"
+           android:textColor="@color/black"
+           android:textSize="18sp"
+           android:text="@string/gunakanlah_waktu_anda_sebaik_mungkin"
+           android:fontFamily="@font/poppins_light"
+           />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        >
+
+        <Button
+            android:layout_width="147dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#6C63FF"
+            android:fontFamily="@font/poppins_medium"
+            android:onClick="fSignIn"
+            android:text="@string/sign_in"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
